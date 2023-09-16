@@ -1,31 +1,44 @@
+/* App.css */
+
+/* Background image and blur effect */
+body {
+  /*background-image: url('%public%/Octocat.png');*/ /* Replace with your image path */
+  background-size: cover;
+  background-blur: 10px; /* Adjust the blur intensity */
+  background-color: rgba(255, 255, 255, 0.5); /* Adjust the background color and opacity */
+}
+
 .App {
   text-align: center;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Nav bar styles */
+nav {
+  background-color: rgba(255, 255, 255, 0.8); /* Navbar background color with transparency */
+  padding: 10px;
+  border-radius: 5px;
+  backdrop-filter: blur(5px); /* Apply blur to the navbar, matching the background blur intensity */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav ul {
+  list-style: none;
+  padding: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+nav li {
+  margin: 0 15px;
 }
 
-.heart {
-  color: #ff0000;
+nav a {
+  text-decoration: none;
+  color: #333; /* Link color */
+  font-weight: bold;
+  transition: color 0.3s ease;
 }
 
-.small {
-  font-size: 0.75rem;
+nav a:hover {
+  color: #007bff; /* Hover color */
 }

@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "description": "Web Developer",
+      "address": "123 Main St, New York, NY",
+      "latitude": 40.7128,
+      "longitude": -74.0060
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "description": "Designer",
+      "address": "456 Elm St, San Francisco, CA",
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    }
+]

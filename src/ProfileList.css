@@ -1,0 +1,33 @@
+.profile-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .profile-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .profile-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #0074d9;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
